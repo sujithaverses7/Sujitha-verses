@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sujitha Verses</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #0d0d0d;
+      color: #f5f5f5;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(black, #1a1a1a);
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .poem {
+      margin-bottom: 40px;
+      line-height: 1.8;
+      white-space: pre-line;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #222;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sujitha Verses</h1>
+  <p>"where silence learns to speak"</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#poetry">Poetry</a>
+  <a href="#work">Creations</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm Sujitha, an amateur poet who writes what the heart cannot say aloud.
+    This is my space—where thoughts become verses, and creativity finds form.
+  </p>
+</section>
+
+<section id="poetry">
+  <h2>My Poems</h2>
+
+  <div class="poem">
+    I spoke in silence,
+    hoping someone would hear—
+    but only the night listened.
+  </div>
+
+  <div class="poem">
+    You left like a whisper,
+    soft... but it echoed forever.
+  </div>
+
+</section>
+
+<section id="work">
+  <h2>My Creations</h2>
+
+  <div class="grid">
+    <div class="card">Pinterest Post Idea 1</div>
+    <div class="card">Aesthetic Quote Design</div>
+    <div class="card">Photo Edit / Concept</div>
+    <div class="card">Future Project</div>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    Find me on Pinterest / Instagram (add your links here soon ✨)
+  </p>
+</section>
+
+<footer>
+  © Sujitha Verses
+</footer>
+
+</body>
+</html>
